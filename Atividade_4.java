@@ -35,7 +35,7 @@ int x,y,opcao=1;
 	}
 
 	
-while(opcao == 1 ||opcao == 2 ||opcao == 3 ||opcao == 4) {		
+while(opcao != 0) {		
 
 	System.out.println("\n1°) somar as duas matrizes");	
 	System.out.println("\n2°) subtrair a primeira matriz da segunda ");
